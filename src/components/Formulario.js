@@ -45,7 +45,7 @@ class Formulario extends Component {
                       <option
                         key={ categoria.id }
                         value={ categoria.id }
-                        data-uk-form-select>
+                        data-uk-form-select="true">
                         { categoria.name_localized }
                       </option>
                     )) );
